@@ -1,0 +1,9 @@
+// Packages/User/Commit Message (Read Only).sublime-settings
+
+{
+    "rulers":
+    [
+        [50, "stippled"],
+        [72, "stippled"]
+    ]
+}

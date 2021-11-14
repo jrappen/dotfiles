@@ -1,0 +1,16 @@
+// Packages/User/LSP-pyright.sublime-settings
+
+{
+    "settings":
+    {
+        "pyright.dev_environment": "sublime_text_38",
+        "python.analysis.extraPaths": [
+            // project's stubs
+            "$folder/stubs",
+            "$folder/typings",
+            // my custom stubs
+            "$packages/../stubs",
+            "$packages/../typings"
+        ]
+    }
+}

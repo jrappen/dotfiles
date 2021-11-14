@@ -1,0 +1,10 @@
+// Packages/User/Markdown.sublime-settings
+
+{
+    "detect_indentation": false,
+//  "spell_check": true,
+    "tab_size": 2,
+    "translate_tabs_to_spaces": true,
+    "trim_only_modified_white_space": true,
+    "use_tab_stops": true
+}

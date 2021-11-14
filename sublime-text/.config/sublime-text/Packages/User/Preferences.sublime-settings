@@ -1,0 +1,118 @@
+// Packages/User/Preferences.sublime-settings
+
+{
+    "always_show_minimap_viewport": true,
+    "animation_enabled": false,
+    "auto_complete_commit_on_tab": true,
+    "auto_complete_cycle": true,
+    "auto_complete_enable_plugins": true,
+    "auto_complete_preserve_order": "none",
+    "auto_complete_with_fields": true,
+    "auto_hide_menu": true,
+    "auto_hide_status_bar": false,
+    "auto_hide_tabs": true,
+    "bold_folder_labels": true,
+    "caret_extra_width": 2,
+    "caret_style": "solid",
+    "close_windows_when_empty": false,
+    "color_scheme": "auto",
+
+//  "light_color_scheme": "Solarized (light).sublime-color-scheme",
+//  "dark_color_scheme": "Dracula Pro (Alucard).sublime-color-scheme",
+
+    "copy_with_empty_selection": false,
+    "default_line_ending": "unix",
+
+    "distractionless.toggle_minimap": false,
+
+    "drag_text": false,
+    "draw_minimap_border": true,
+    "draw_shadows": false,
+    "draw_unicode_white_space": "all",
+    "draw_white_space":
+    [
+        "leading",
+        "trailing",
+        "isolated",
+        "selection"
+    ],
+    "ensure_newline_at_eof_on_save": true,
+    "font_face": "PragmataPro Mono Liga",
+    "hardware_acceleration": "opengl",
+    "font_size": 14,
+    "goto_anything_exclude_gitignore": true,
+    "hide_pointer_while_typing": true,
+    "highlight_gutter": true,
+    "highlight_line": true,
+    "highlight_line_number": true,
+    "highlight_modified_tabs": true,
+    "hot_exit": "disabled",
+    "ignored_packages":
+    [
+//      "LSP",
+//      "LSP-json",
+//      "LSP-marksman",
+//      "LSP-pyright",
+//      "LSP-typescript",
+//      "LSP-yaml",
+        "Vintage"
+    ],
+    "indent_guide_options":
+    [
+        "draw_active_single",
+        "draw_normal",
+        "solid"
+    ],
+    "index_exclude_patterns":
+    [
+        "*.log",
+        "node_modules/"
+    ],
+    "line_padding_bottom": 3,
+    "line_padding_top": 3,
+
+//  "mini_auto_complete": true,
+
+    "minimap_horizontal_scrolling": true,
+    "mouse_wheel_switches_tabs": false,
+
+//  "open_files_in_new_window": "finder_only",
+
+    "overlay_scroll_bars": "enabled",
+    "preview_on_click": "only_left",
+    "remember_full_screen": true,
+    "remember_workspace": false,
+    "reveal_tabs_with_timeout": true,
+    "rulers":
+    [
+        [80, "stippled"],
+        [100, "stippled"],
+        [120, "stippled"]
+    ],
+    "scroll_context_lines": 4,
+    "scroll_past_end": 0.5,
+    "scroll_speed": 5.0,
+    "show_encoding": true,
+    "show_full_path": true,
+    "show_line_column": "compact",
+    "show_line_endings": true,
+    "show_project_first": true,
+    "show_rel_path": true,
+    "show_spelling_errors": false,
+    "spell_check": false,
+    "tab_size": 4,
+    "theme": "Adaptive.sublime-theme",
+
+//  "theme_font_options": [
+//      "ss03"
+//  ],
+
+    "translate_tabs_to_spaces": true,
+    "tree_animation_enabled": false,
+    "trim_automatic_white_space": false,
+    "trim_only_modified_white_space": false,
+    "trim_trailing_white_space_on_save": "all",
+    "update_check": false,
+    "use_tab_stops": true,
+    "word_wrap": true
+}

@@ -1,0 +1,16 @@
+// Packages/User/Default.sublime-theme
+
+{
+    "variables":
+    {
+        "font_face": "PragmataPro Mono Liga"
+    },
+    "rules":
+    [
+        {
+            "class": "tab_control",
+            "attributes": ["!selected", "!hover"],
+            "layer1.opacity": { "target": 0.5, "speed": 5.0, "interpolation": "smoothstep" }
+        }
+    ]
+}

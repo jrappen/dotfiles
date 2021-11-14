@@ -1,0 +1,42 @@
+# macOS
+
+.DS_Store
+
+._*
+
+.Spotlight-V100/
+.Trashes/
+
+# Windows
+
+[Dd]esktop.ini
+
+Thumbs.db
+
+# GPG
+
+pubring.*
+secring.*
+
+# SSH
+
+id_rsa.randomart
+id_rsa
+
+# Sublime Text
+
+*.sublime-workspace
+
+*.tmLanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+
+# Sublime Text / Package Control specific files
+
+Package Control.user-ca-bundle
+
+# Sublime Text / Packages with private info
+
+Fetch.sublime-settings
+GitSavvy.sublime-settings
+MarkdownPreview.sublime-settings

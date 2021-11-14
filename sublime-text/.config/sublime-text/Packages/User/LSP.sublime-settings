@@ -1,0 +1,11 @@
+// Packages/User/LSP.sublime-settings
+
+{
+    "diagnostics_gutter_marker": "sign",
+    "diagnostics_highlight_style": "box",
+    "document_highlight_style": "underline",
+    "inhibit_snippet_completions": false,
+    "semantic_highlighting": true,
+    "show_diagnostics_panel_on_save": 2,
+    "show_inlay_hints": true
+}

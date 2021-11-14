@@ -1,0 +1,42 @@
+// Packages/User/Package Control.sublime-settings
+
+{
+	"auto_upgrade_frequency": 0,
+	"auto_upgrade_ignore":
+	[
+	],
+	"bootstrapped": true,
+	"debug": false,
+	"ignore_vcs_packages": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"ColorHelper",
+		"Colored Comments",
+		"FileIcons",
+		"LSP",
+		"LSP-json",
+		"LSP-marksman",
+		"LSP-pyright",
+		"LSP-typescript",
+		"LSP-yaml",
+		"Package Control",
+		"PackageDev",
+		"SideBarTools",
+		"distractionless",
+		"print"
+	],
+//  "query_string_params": {
+//  	"api.github.com": {
+//  		"client_id": "",
+//  		"client_secret": ""
+//  	}
+//  },
+	"repositories":
+	[
+		"https://raw.githubusercontent.com/jrappen/sublime-print/master/package_control_channel.json"
+	],
+	"submit_usage": false
+}

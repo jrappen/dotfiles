@@ -1,0 +1,17 @@
+# macOS
+
+.DS_Store
+
+# Windows
+
+[Dd]esktop.ini
+Thumbs.db
+
+# GPG
+
+pubring.*
+secring.*
+
+# Sublime Text
+
+*.sublime-workspace

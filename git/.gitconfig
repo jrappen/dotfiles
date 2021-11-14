@@ -1,0 +1,56 @@
+[credential]
+	helper = osxkeychain
+
+[core]
+	attributesfile = ./.gitattributes_global
+	editor = subl --wait --new-window
+	excludesfile = ./.gitignore_global
+	# precomposeunicode = false
+	# trustctime = false
+	# untrackedCache = true
+
+# [extensions]
+	# objectFormat = newhash
+	# compatObjectFormat = sha1
+
+[sequence]
+	editor = subl --wait --new-window
+
+[merge]
+	conflictStyle = diff3
+	tool = smerge
+
+[mergetool "smerge"]
+	cmd = smerge --wait mergetool \"$BASE\" \"$LOCAL\" \"$REMOTE\" -o \"$MERGED\"
+	trustExitCode = true
+
+[init]
+	defaultBranch = main
+
+[commit]
+	# gpgSign = true
+	verbose = true
+
+[tag]
+	# forceSignAnnotated = true
+	# gpgSign = true
+
+[push]
+	default = current
+	followTags = true
+
+[pull]
+	# rebase = true
+
+[rebase]
+	# autoSquash = true
+
+[log]
+	date = relative
+	# follow = true
+
+[gpg]
+	program = /usr/local/bin/gpg
+
+[help]
+	autoCorrect = prompt

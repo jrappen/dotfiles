@@ -1,0 +1,12 @@
+// Packages/User/Remote.sublime-menu
+
+[
+    {
+        "caption": "Open Remote URL",
+        "command": "open_url",
+        "args":
+        {
+            "url": "$remote_url"
+        }
+    }
+]

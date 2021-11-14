@@ -1,0 +1,8 @@
+// Packages/User/LSP-json.sublime-settings
+
+{
+    "disabled_capabilities":
+    {
+        "colorProvider": true
+    }
+}

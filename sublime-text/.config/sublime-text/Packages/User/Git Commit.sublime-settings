@@ -1,0 +1,9 @@
+// Packages/User/Git Commit.sublime-settings
+
+{
+    "rulers":
+    [
+        [50, "stippled"],
+        [72, "stippled"]
+    ]
+}

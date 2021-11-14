@@ -1,0 +1,26 @@
+// Packages/User/Distraction Free.sublime-settings
+
+{
+    "always_show_minimap_viewport": false,
+    "draw_centered": true,
+    "draw_indent_guides": true,
+    "draw_minimap_border": false,
+    "draw_white_space":
+    [
+        "isolated",
+        "trailing",
+        "selection"
+    ],
+    "gutter": true,
+    "indent_guide_options": [],
+    "line_numbers": true,
+    "rulers": [
+        [80, "stippled"],
+        [100, "stippled"],
+        [120, "stippled"]
+    ],
+    "scroll_past_end": true,
+    "wrap_width": 121,
+    "word_wrap": true
+}
+

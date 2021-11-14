@@ -1,0 +1,26 @@
+// Packages/User/Breakers.sublime-color-scheme
+
+{
+    "globals":
+    {
+        "line_diff_added": "var(green)",
+        "line_diff_modified": "var(blue)",
+        "line_diff_deleted": "var(red)",
+        "line_diff_width": "5",
+        "brackets_options": "glow",
+        "bracket_contents_options": "glow",
+        "tags_options": "glow"
+    },
+    "rules":
+    [
+        {
+            "scope": "source.python & (entity.name, support.function)",
+            "font_style": "glow"
+        },
+        {
+            "scope": "entity.name.section.sublime-syntax",
+            "foreground": "var(orange3)",
+            "font_style": "bold underline"
+        }
+    ]
+}

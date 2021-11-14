@@ -1,0 +1,16 @@
+// Packages/User/Diff.sublime-settings
+
+{
+    "draw_white_space":
+    [
+        "leading",
+        "trailing",
+        "isolated"
+    ],
+    "rulers":
+    [
+        [80, "stippled"],
+        [100, "stippled"],
+        [120, "stippled"]
+    ]
+}

@@ -1,0 +1,57 @@
+// Packages/User/Adaptive.sublime-theme
+
+{
+    "variables":
+    {
+        "font_face": "PragmataPro Mono Liga",
+
+        "vcs_missing": "color(var(--pinkish) min-contrast(var(--background) 2.5))",
+        "vcs_staged": "color(var(--purplish) min-contrast(var(--background) 2.5))"
+    },
+    "rules":
+    [
+        {
+            "class": "tab_control",
+            "attributes": ["!selected", "!hover"],
+            "layer1.opacity": { "target": 0.5, "speed": 5.0, "interpolation": "smoothstep" }
+        },
+
+
+        // VCS Filenames
+        {
+            "class": "sidebar_label",
+            "parents": [{"class": "file_system_entry", "attributes": ["untracked"]}],
+            "color": "color(var(--yellowish) min-contrast(var(--background) 2.5))"
+        },
+        {
+            "class": "sidebar_label",
+            "parents": [{"class": "file_system_entry", "attributes": ["modified"]}],
+            "color": "color(var(--bluish) min-contrast(var(--background) 2.5))"
+        },
+        {
+            "class": "sidebar_label",
+            "parents": [{"class": "file_system_entry", "attributes": ["staged"]}],
+            "color": "color(var(--purplish) min-contrast(var(--background) 2.5))"
+        },
+        {
+            "class": "sidebar_label",
+            "parents": [{"class": "file_system_entry", "attributes": ["added"]}],
+            "color": "color(var(--greenish) min-contrast(var(--background) 2.5))"
+        },
+        {
+            "class": "sidebar_label",
+            "parents": [{"class": "file_system_entry", "attributes": ["unmerged"]}],
+            "color": "color(var(--orangish) min-contrast(var(--background) 2.5))"
+        },
+        {
+            "class": "sidebar_label",
+            "parents": [{"class": "file_system_entry", "attributes": ["deleted"]}],
+            "color": "color(var(--redish) min-contrast(var(--background) 2.5))"
+        },
+        {
+            "class": "sidebar_label",
+            "parents": [{"class": "file_system_entry", "attributes": ["missing"]}],
+            "color": "color(var(--pinkish) min-contrast(var(--background) 2.5))"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+// Packages/User/Preferences.sublime-settings
+
+{
+    "animation_enabled": false,
+    "always_show_commit_graph": true,
+    "caret_extra_width": 2,
+    "caret_style": "solid",
+    "draw_shadows": false,
+    "draw_unicode_white_space": "all",
+    "editor_wait_args": "--wait --new-window",
+    "expand_merge_commits_by_default": true,
+    "font_face": "PragmataPro Mono Liga",
+    "font_size": 12,
+    "hide_pointer_while_typing": true,
+    "ignore_diff_white_space": false,
+    "highlight_gutter": true,
+    "highlight_line_number": true,
+    "line_padding_bottom": 3,
+    "line_padding_top": 3,
+//  "log_commands": false,
+//  "log_control_tree": false,
+//  "log_input": false,
+    "theme": "auto",
+    "translate_tabs_to_spaces": true,
+    "update_check": false
+}
